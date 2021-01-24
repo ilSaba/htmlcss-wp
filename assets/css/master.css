@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 1em 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 125px;
+  height: 50px;
+}
+
+.row{
+  margin: 0 -15px;
+}
+
+.mt-1{
+  margin-top: 1em;
+}
+
+.mb-1{
+  margin-bottom: 1em;
+}
+
+.pb-1{
+  padding-bottom: 1em;
+}
+
+[class^="col-"]{
+  float: left;
+  padding: 0 15px;
+}
+
+.col-100{
+  width: 100%;
+}
+
+.col-50{
+  width: 50%;
+}
+
+.col-25{
+  width: 25%;
+}
+
+.h-1{
+  height: 100px;
+}
+
+.h-2{
+  height: 490px;
+}
+
+.h-3{
+  height: 60px;
+}
+
+.h-4{
+  height: 200px;
+  border-radius: 10px;
+}
+
+.h-5{
+  height: 500px;
+  border-radius: 10px;
+}
+
+/* .bg-pink{
+  background-color: pink;
+} */
+
+/* .bg-yellow{
+  background-color: yellow;
+} */
+
+/* .bg-cyan{
+  background-color: cyan;
+} */
+
+/* .bg-blue{
+  background-color: blue;
+} */
+
+/* .bg-lgreen{
+  background-color: lightgreen;
+} */
+
+footer{
+  margin-top: 20px;
+}
+
+p{
+  color: #cecece;
+}
